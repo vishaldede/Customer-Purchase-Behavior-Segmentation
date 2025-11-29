@@ -16,7 +16,7 @@ We apply multiple clustering algorithms to create meaningful customer groups and
 ## 🧠 Objectives
 
 - Understand customer purchase behavior using **EDA & visualization**
-- Segment customers using **K-Means, DBSCAN, Agglomerative Clustering, and GMM**
+- Segment customers using **K-Means
 - Evaluate clustering performance using **Silhouette Score**
 - Store and query data using **MySQL**
 - Generate actionable business insights for marketing teams
@@ -67,22 +67,12 @@ We apply multiple clustering algorithms to create meaningful customer groups and
 
 ### **MySQL Integration**
 - Stored cleaned dataset in MySQL using `mysql-connector-python`
-- Performed 7 SQL analytical queries:
-  - Total customers by country  
-  - Average income & spending by loyalty status  
-  - Top 5 high spenders  
-  - Preferred category distribution  
-  - Signup trends by month
-    
+- Performed SQL analytical queries
+  
 ---
 
 ### **EDA with Matplotlib and Seaborn**
-- Gender and Age Distribution  
-- Income vs Spending Score Relationship  
-- Loyalty Status vs Purchase Frequency  
-- Most Preferred Product Categories  
-- Correlation Heatmap of behavioral features  
-
+  
 **Tools:** Pandas, Matplotlib, Seaborn
 
 ---
@@ -91,9 +81,6 @@ We apply multiple clustering algorithms to create meaningful customer groups and
 - Scaled numerical features with `StandardScaler`
 - Applied multiple clustering algorithms:
   - **K-Means**
-  - **DBSCAN**
-  - **Agglomerative Clustering**
-  - **Gaussian Mixture Model (GMM)**
 
 ---
 
@@ -101,9 +88,6 @@ We apply multiple clustering algorithms to create meaningful customer groups and
 | Algorithm | Best Params | Silhouette Score | Comment |
 |------------|-------------|------------------|----------|
 | KMeans | k=4 | **0.61** | Best performance |
-| Agglomerative | k=4 | 0.57 | Good alternative |
-| GMM | k=4 | 0.54 | Moderate overlap |
-| DBSCAN | eps=0.5 | 0.18 | Poor separation |
 
 ---
 
@@ -114,17 +98,6 @@ We apply multiple clustering algorithms to create meaningful customer groups and
 | **Regular Buyers** | Mid income, moderate spending | Loyal, prefer clothing |
 | **Premium Loyalists** | High income, high spending, frequent purchases | Prefer electronics & beauty |
 | **Young Impulsives** | Young, mid-income, high spending | Prefer sports & fashion |
-
----
-
-## 📈 Results Visualization
-
-| Visualization | Insight |
-|----------------|----------|
-| Income vs Spending Score | Shows natural separation between segments |
-| Loyalty vs Frequency | Higher loyalty → higher purchase frequency |
-| PCA 2D Cluster Plot | 4 well-defined clusters |
-
 
 ---
 
