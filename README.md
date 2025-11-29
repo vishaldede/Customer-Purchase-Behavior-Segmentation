@@ -16,7 +16,7 @@ We apply multiple clustering algorithms to create meaningful customer groups and
 ## 🧠 Objectives
 
 - Understand customer purchase behavior using **EDA & visualization**
-- Segment customers using **K-Means
+- Segment customers using **K-Means**
 - Evaluate clustering performance using **Silhouette Score**
 - Store and query data using **MySQL**
 - Generate actionable business insights for marketing teams
