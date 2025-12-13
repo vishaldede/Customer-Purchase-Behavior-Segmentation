@@ -11,7 +11,7 @@ A dataset including noise and data quality issues, followed by a complete **data
 
 ## 🎯 Business Objective
 - Segment customers based on purchasing behavior
-- Identify Budget Shoppers, Regular Customers, Premium Customers, High-Value Loyal Customer groups
+- Identify high-value and low-value customer groups
 - Understand customer patterns without using labeled data
 - Validate clustering quality using **Silhouette Score**
 
