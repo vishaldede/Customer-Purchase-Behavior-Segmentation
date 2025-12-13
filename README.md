@@ -75,7 +75,7 @@ For optimal clustering quality, only **strong numeric behavioral features** were
 
 ## 📈 Model Evaluation
 - **Optimal number of clusters:** 4
-- **Silhouette Score:** ~0.55 – 0.65
+- **Silhouette Score:** ~0.50 – 0.65
 - Strong intra-cluster similarity
 - Clear inter-cluster separation
 
