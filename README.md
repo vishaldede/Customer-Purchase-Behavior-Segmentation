@@ -57,12 +57,8 @@ Performed using **Pandas, Matplotlib, Seaborn**
 ---
 
 ## ⚙️ Data Preprocessing
-- Feature scaling using **StandardScaler**
 - Careful feature selection for clustering
-
-⚠️ **Important Note:**  
-KMeans uses Euclidean distance and is sensitive to noisy or categorical features.  
-For optimal clustering quality, only **strong numeric behavioral features** were used during model training.
+- Feature scaling using **StandardScaler**
 
 ---
 
