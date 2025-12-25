@@ -50,6 +50,12 @@ The dataset intentionally included real-world issues:
 
 ---
 
+## 📊 Exploratory Data Analysis (EDA)
+
+Performed using **Pandas, Matplotlib, Seaborn**
+
+---
+
 ## ⚙️ Data Preprocessing
 - Feature scaling using **StandardScaler**
 - Careful feature selection for clustering
@@ -84,18 +90,12 @@ For optimal clustering quality, only **strong numeric behavioral features** were
 ## 🏷 Customer Segments Identified
 | Cluster | Segment Name |
 |------|-------------|
-| 1 | Budget Shoppers |
-| 3 | Regular Customers |
-| 0 | Premium Customers |
-| 2 | High-Value Loyal Customers |
+| 3 | Budget Shoppers |
+| 1 | Regular Customers |
+| 2 | Premium Customers |
+| 0 | Loyal Customers |
 
 Cluster labels were assigned based on **cluster centroids**, not numeric order.
-
----
-
-## 📊 Visualizations
-- Elbow Method plot
-- Cluster centroid analysis
 
 ---
 
